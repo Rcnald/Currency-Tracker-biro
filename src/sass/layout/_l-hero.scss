@@ -6,4 +6,18 @@
     @include breakpoint(min-md){
        @apply p-[2.5rem];
     };
+
+    .c-briefing{
+        @include breakpoint(min-md){
+           @apply gap-[4rem];
+        };
+    }
+
+    .c-logo{
+        img{
+            @include breakpoint(min-md){
+               @apply max-w-[270px] max-h-[270px];
+            };
+        }
+    }
 }

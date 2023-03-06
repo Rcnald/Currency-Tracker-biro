@@ -10,7 +10,6 @@
     &__title{
         @apply text-[2.375rem] font-semibold max-w-[11.4575rem] leading-[2.5rem] text-center text-gradient;
 
-
         @include breakpoint(min-md){
            @apply text-[5.625rem] max-w-[26.6925rem] leading-[5.625rem] text-right;
         };

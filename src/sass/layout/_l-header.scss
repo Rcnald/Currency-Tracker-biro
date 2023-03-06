@@ -7,9 +7,8 @@
        @apply py-[1.875rem];
     };
 
-    
     &-wrapper{
-        @apply flex max-w-[461px] justify-center w-full items-center;
+        @apply flex max-w-[461px] w-full items-center;
         
         @include breakpoint(min-md){
            @apply max-w-[952px] gap-[1.25rem];
@@ -18,14 +17,14 @@
         .c-logo{
             img{
                 @apply max-w-[12px] max-h-[0.75rem] flex-1;
-    
+                
                 @include breakpoint(min-md){
                    @apply max-w-[2.5rem] max-h-[2.5rem];
                 };
             }
         }  
 
-        nav{
+        .c-navigation{
             @apply min-w-fit flex-1 flex justify-center;
         }
     }
