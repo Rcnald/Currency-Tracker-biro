@@ -1,0 +1,7 @@
+.l-body{
+    @apply font-main min-h-screen w-full bg-color-background text-color-text;
+
+    & > *{
+        @apply px-[1.75rem];
+    }
+}

@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
-        <title>Project Template</title>
+        <link rel="shortcut icon" href="./assets/currency-tracker-logo.svg" type="image/x-icon">
+        <title>Currency Tracker</title>
     </head>
-    <body>
+    <body class="l-body">
+        <header class="l-header">
+            <div class="l-header-wrapper">
+                <div class="c-logo">
+                    <img src="./assets/currency-tracker-logo.svg" alt="Currency Tracker logo">
+                </div>
+    
+                <nav>
+                    <ul class="c-navigation">
+                        <li class="c-navigation__item"><a href="#">Home</a></li>
+                        <li class="c-navigation__item"><a href="#">Conversor</a></li>
+                        <li class="c-navigation__item"><a href="#">Sobre</a></li>
+                        <li class="c-navigation__item"><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
+        <section class="l-hero">
+            <div class="c-briefing">
+                <div class="c-briefing__content">
+                    <h1 class="c-briefing__title">Currency Tracker</h1>
+                    <p class="c-briefing__description">Cotacão do dólar e outras moedas internacionais.</p>
+                </div>
+                <picture class="c-logo">
+                    <source media="(min-width:768px)" srcset="./assets/currency-tracker-logo.svg">
+                    <img>
+                </picture>
+            </div>
+        </section>
     </body>
     <script src="js/script.js"></script>
 </html>

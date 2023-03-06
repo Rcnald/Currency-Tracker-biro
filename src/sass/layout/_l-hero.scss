@@ -1,0 +1,9 @@
+@use '../abstract/' as *;
+
+.l-hero{
+    @apply flex justify-center p-[1rem] w-full color-gradient;
+
+    @include breakpoint(min-md){
+       @apply p-[2.5rem];
+    };
+}
