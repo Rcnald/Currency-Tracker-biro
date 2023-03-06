@@ -1,10 +1,10 @@
 @use '../abstract/' as *;
 
 .l-hero{
-    @apply flex justify-center p-[1rem] w-full color-gradient;
+    @apply flex justify-center items-center p-[1rem] w-full min-h-[10.625rem] color-gradient;
 
     @include breakpoint(min-md){
-       @apply p-[2.5rem];
+       @apply p-[2.5rem] min-h-[25.3125rem];
     };
 
     .c-briefing{
