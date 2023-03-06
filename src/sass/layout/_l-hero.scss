@@ -16,7 +16,7 @@
     .c-logo{
         img{
             @include breakpoint(min-md){
-               @apply max-w-[270px] max-h-[270px];
+               @apply max-w-[16.875rem] max-h-[16.875rem];
             };
         }
     }

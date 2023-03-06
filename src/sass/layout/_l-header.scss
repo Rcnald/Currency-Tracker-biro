@@ -8,10 +8,10 @@
     };
 
     &-wrapper{
-        @apply flex max-w-[461px] w-full items-center;
+        @apply flex max-w-[26.25rem] w-full items-center;
         
         @include breakpoint(min-md){
-           @apply max-w-[952px] gap-[1.25rem];
+           @apply max-w-[84.375rem] gap-[1.25rem];
         };
         
         .c-logo{
