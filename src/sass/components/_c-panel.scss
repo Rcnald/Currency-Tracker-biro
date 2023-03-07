@@ -1,13 +1,47 @@
 @use '../abstract/' as *;
 
 .c-panel{
-    @apply flex flex-col divide-y-[0.0313rem] gap-[0.625rem] w-full max-w-[22.5625rem] divide-color-line;
+    @apply flex flex-col w-full max-w-[22.5625rem];
+
+    @include breakpoint(min-md){
+       @apply max-w-[1224px];
+    };
 
     &__title{
-        @apply font-light text-[0.75rem];
+        @apply font-light text-[0.75rem] pb-[0.625rem];
+
+        @include breakpoint(min-md){
+           @apply text-[2rem] pb-[1.5rem];
+        };
+    }
+
+    &__line{
+        @apply ring-[0.0238rem] ring-color-line;
+
+        @include breakpoint(min-md){
+           @apply ring-1;
+        };
+    }
+
+    &__content{
+        @apply flex flex-col flex-wrap gap-[1.25rem];
+
+        @include breakpoint(min-md){
+           @apply gap-[3.125rem] max-h-[200px];
+        };
     }
 
     .c-card{
-        @apply mt-[1.125rem];
+        @include breakpoint(min-md){
+           @apply max-w-[32.5rem];
+        };
+
+        // &:first-child{
+        //     @apply mt-[1.125rem];
+            
+        //     @include breakpoint(min-md){
+        //        @apply mt-[3.125rem];
+        //     };
+        // }
     }
 }
