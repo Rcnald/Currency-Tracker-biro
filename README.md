@@ -1,4 +1,4 @@
-<h1 align="center">Project Template</h1>
+<h1 align="center">Currency Tracker</h1>
 
 ## Requirements
 
@@ -23,4 +23,9 @@
 | npm start     | run live:server,sass & tailwind    | on production       |
 | npm run build | run autoprefixer                   | project is over     |
 
-## [package.json file credits](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+
+# Credits
+
+## [package.json file](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+
+## [biro^3 (reference)](https://www.twitch.tv/videos/1747240841)
