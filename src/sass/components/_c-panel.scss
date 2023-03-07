@@ -8,40 +8,32 @@
     };
 
     &__title{
-        @apply font-light text-[0.75rem] pb-[0.625rem];
+        @apply font-light text-[0.75rem];
 
         @include breakpoint(min-md){
-           @apply text-[2rem] pb-[1.5rem];
+           @apply text-[2rem];
         };
     }
 
     &__line{
-        @apply ring-[0.0238rem] ring-color-line;
+        @apply ring-[0.0238rem] ring-color-line mt-[0.625rem] mb-[1.125rem];
 
         @include breakpoint(min-md){
-           @apply ring-1;
+           @apply ring-1 mt-[1.5rem] mb-[3.125rem];
         };
     }
 
     &__content{
-        @apply flex flex-col flex-wrap gap-[1.25rem];
+        @apply flex gap-[1.25rem] justify-between;
 
         @include breakpoint(min-md){
-           @apply gap-[3.125rem] max-h-[200px];
+           @apply gap-[3.125rem] flex-wrap;
         };
     }
 
     .c-card{
-        @include breakpoint(min-md){
+        @include breakpoint(min-xl){
            @apply max-w-[32.5rem];
         };
-
-        // &:first-child{
-        //     @apply mt-[1.125rem];
-            
-        //     @include breakpoint(min-md){
-        //        @apply mt-[3.125rem];
-        //     };
-        // }
     }
 }

@@ -1,14 +1,14 @@
 @use '../abstract/' as *;
 
 .c-card{
-    @apply flex gap-[0.625rem] w-full ring-[0.0238rem] ring-color-line p-[0.8125rem] rounded-[0.1875rem] bg-color-card;
+    @apply flex gap-[0.625rem] w-full ring-[0.0238rem] ring-color-line p-[0.8125rem] rounded-[0.1875rem] cursor-pointer bg-color-card;
 
     @include breakpoint(min-md){
        @apply gap-[1.875rem] ring-2 py-[2.25rem] px-[2.0625rem] rounded-[0.5rem];
     };
 
     &__icon{
-        @apply min-w-[1.875rem] min-h-[1.875rem];
+        @apply max-w-[1.875rem] max-h-[1.875rem];
 
         @include breakpoint(min-md){
            @apply min-w-[5rem] min-h-[5rem];
@@ -30,7 +30,7 @@
     &__value{
         @apply font-light text-[0.75rem] leading-[1] text-color-text-accent;
 
-        @include breakpoint(min-sm){
+        @include breakpoint(min-md){
            @apply text-[2rem];
         };
     }
