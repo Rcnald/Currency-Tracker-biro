@@ -24,10 +24,10 @@
     }
 
     &__content{
-        @apply flex gap-[1.25rem] justify-between;
+        @apply flex gap-[1.25rem] flex-wrap justify-between;
 
         @include breakpoint(min-md){
-           @apply gap-[3.125rem] flex-wrap;
+           @apply gap-[3.125rem];
         };
     }
 
