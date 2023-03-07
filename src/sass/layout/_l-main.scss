@@ -1,0 +1,13 @@
+@use '../abstract/' as *;
+
+.l-main{
+    @apply flex flex-col items-center;
+
+    .c-notification{
+        @apply my-[1.875rem];
+
+        @include breakpoint(min-md){
+           @apply my-[3.875rem];
+        };
+    }
+}

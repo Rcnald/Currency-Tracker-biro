@@ -1,0 +1,25 @@
+@keyframes is-pulsing{
+    50%{
+        @apply ring-[0.625rem] scale-90;
+    }
+    to{
+        @apply opacity-0 scale-105;
+    }
+};
+
+@keyframes is-pulsing-mobile{
+    50%{
+        @apply ring-4 scale-90;
+    }
+    to{
+        @apply opacity-0 scale-105;
+    }
+};
+
+.is-pulsing{
+    animation: is-pulsing 1s cubic-bezier(0.33,1,0.68,1) infinite;
+}
+
+.is-pulsing-mobile{
+    animation: is-pulsing-mobile 1s cubic-bezier(0.33,1,0.68,1) infinite;
+}

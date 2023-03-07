@@ -1,0 +1,17 @@
+@use '../abstract/' as *;
+
+.c-notification{
+    @apply block w-[8px] h-[8px] rounded-full relative border-none bg-color-notification;
+
+    &::before{
+        @apply absolute content-[''] w-full h-full rounded-full scale-75 ring-4 ring-color-notification is-pulsing-mobile;
+
+        @include breakpoint(min-md){
+           @apply is-pulsing ring-[0.625rem];
+        };
+    }
+
+    @include breakpoint(min-md){
+       @apply w-[16px] h-[16px];
+    };
+}

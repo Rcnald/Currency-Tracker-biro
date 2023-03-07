@@ -1,0 +1,17 @@
+@use '../abstract/' as *;
+
+.c-up-date{
+    @apply flex items-center justify-between max-w-[12.9375rem] w-full;
+
+    @include breakpoint(min-md){
+       @apply max-w-[33.5625rem];
+    };
+
+    &__text{
+        @apply text-[0.75rem] font-light;
+
+        @include breakpoint(min-md){
+           @apply text-[2.0569rem];
+        };
+    }
+}
