@@ -1,0 +1,9 @@
+@use '../abstract/' as *;
+
+.l-footer{
+    @apply w-full flex justify-center py-[1.875rem]; 
+
+    @include breakpoint(min-md){
+       @apply py-[5.625rem];
+    };
+}

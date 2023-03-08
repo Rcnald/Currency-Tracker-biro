@@ -26,6 +26,6 @@
 
 # Credits
 
-## [package.json file](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+[package.json file](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
 
-## [biro^3 (reference)](https://www.twitch.tv/videos/1747240841)
+[biro^3 (reference)](https://www.twitch.tv/videos/1747240841)

@@ -1,13 +1,9 @@
 @use '../abstract/' as *;
 
 .l-main{
-    @apply flex flex-col items-center;
+    @apply flex flex-col items-center py-[1.875rem] gap-[1.875rem];
 
-    .c-notification{
-        @apply my-[1.875rem];
-
-        @include breakpoint(min-md){
-           @apply my-[3.875rem];
-        };
-    }
+    @include breakpoint(min-md){
+       @apply py-[3.4375rem] gap-[3.4375rem];
+    };
 }

@@ -1,0 +1,9 @@
+@use '../abstract/' as *;
+
+.c-author{
+    @apply font-light text-[0.875rem] text-color-text-constrast;
+
+    @include breakpoint(min-md){
+       @apply text-[2rem];
+    };
+}
