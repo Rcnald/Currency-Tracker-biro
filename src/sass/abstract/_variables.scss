@@ -12,10 +12,12 @@
     --color-gray-lighter: #D9D9D9;
     --color-black: #030304;
     --color-green: #00BC4F;
+    --color-red: #F55;
 
     --text-color: var(--color-white);
     --text-color-constrast: var(--color-gray-lighter);
     --text-color-accent: var(--color-gray-light);
+    --text-color-negative: var(--color-red);
 
     --background-color: var(--color-black);
     --notification-color: var(--color-green);
